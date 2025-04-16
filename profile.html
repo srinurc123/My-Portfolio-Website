@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/p-2.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Srinivas</span><br>From Hyderabad</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img  src="images/pic-3.jpg" height="400px"> 
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <strong>
+                        Software developer with strong knowledge in Java and backend technologies.
+                        Currently learning Spring Boot, Hibernate, and building full-stack projects.
+                        Focused on improving coding logic and real-world problem-solving skills.
+                        Eager to join a dynamic team and grow as a Java backend developer.
+                    </strong>
+
+                    <div class="tab-title">
+                        <button class="tab-links active-link" onclick="opentab('skills')">Skills</button>
+                        <button class="tab-links" onclick="opentab('experience')">Experience</button>
+                        <button class="tab-links" onclick="opentab('education')">Education</button>
+                    </div>
+
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development:</span><br>Designing web applications</li>
+                            <li><span>Coding:</span><br>Enjoy doing coding</li>
+                            <li><span>Communication:</span><br>Speaking English fluently</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="experience" style="display: none;">
+                        <ul>
+                            <li><span>Java Full-Stack Trainee:</span><br>Career Bridge IT Services</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="education" style="display: none;">
+                        <ul>
+                            <li><span>Andhra Loyola College:</span><br>Civil Engineering</li>
+                            <li><span>Sri Chaitanya:</span><br>Intermediate</li>
+                            <li><span>Lahari Vidya Mandir:</span><br>S.S.C</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2> web Applications</h2>
+                    <p>building web applications </p>
+                    <a href="#">learn more</a>
+                </div>  
+                 <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2> ui/ux</h2>
+                    <p> scalable frontend applications </p>
+                    <a href="#">learn more</a>
+                </div> 
+                  <div>
+                    <i class="fas fa-code"></i>
+                    <h2> web Applications</h2>
+                    <p>building web applications </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+<!-- --------portfolio----- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.png" >
+                <div class="layer">
+                    <h3 style="color: rgb(243, 236, 236);" >Library Management System</h3>
+                    <bold style="color: rgb(4, 223, 252);"> it gives the information about the book and user usage </bold>
+                    <a href="#"><i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work4.png" >
+                <div class="layer">
+                    <h3 style="color: rgb(248, 243, 243);"> Wheather Forecast App</h3>
+                    <p style="color: rgb(5, 178, 247);"> it shows the real time Wheather conditions in particular area </p>
+                    <a href="#"><i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.jpeg" >
+                <div class="layer">
+                    <h3 style="color: rgb(245, 238, 238);" > My Portfolio Website</h3>
+                    <p style="color: aqua;"> This website shows about my Personal information and my previous work </p>
+                    <a href="#"><i></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+
+<!-- contact section -->
+
+  <section class="contact-section">
+    <div class="contact-left">
+      <h1>Contact Me</h1>
+      <p><i class="fa-solid fa-envelope"></i> srinuvalasani5@gmail.com</p>
+      <p><i class="fa fa-phone"></i> 7893855952</p>
+      
+      <a href="images/Shanmukha Srinivas_Java_Resume.pdf" target="_blank" class="download-btn">View Resume</a>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/Shanmukha Srinivas" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/srinurc123" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      
+    </div>
+    <div class="contact-right">
+      <input type="text" placeholder="Your Name">
+      <input type="email" placeholder="Your Email">
+      <textarea placeholder="Your Message"></textarea>
+      <button class="submit-btn">Submit</button>
+    </div>
+  </section>
+  
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-content");
+
+        function opentab(tabname) {
+            for (var i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active-link");
+            }
+            for (var i = 0; i < tabcontents.length; i++) {
+                tabcontents[i].style.display = "none";
+                tabcontents[i].classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).style.display = "block";
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+       
+      
+    </script>
+</body>
+</html>
